@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
   def ben
   	render text: "got 'em"
   end
+
+  def peterson
+  	render text: "I did it!"
+  end
 end
