@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
   end
 
   def peterson
-  	render text: "I did it!"
+  	render text: "I did it again!"
   end
 end
